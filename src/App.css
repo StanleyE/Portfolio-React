@@ -13,3 +13,27 @@
   font-size: calc(10px + 2vmin); */
   color: black;
 }
+
+.videoheader {
+  background-color: lavender;
+  height: 65vh;
+}
+
+.aboutMain {
+  background-color: slateblue;
+  height: 50vh;
+  margin-top: 10px;
+}
+
+.skillsMain {
+  background-color:lightcyan;
+  height: 25vh;
+  margin-top: 69px;
+}
+
+
+.callMeMaybe {
+  background-color: lavenderblush;
+  margin-bottom:0;
+  height: 20vh;
+}

@@ -9,7 +9,7 @@ class About extends Component {
 
     render() {
         return (
-            <div>
+            <div className="aboutMain">
                 <h2>About me with image overlay</h2>
             </div>
         );

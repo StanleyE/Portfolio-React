@@ -27,7 +27,9 @@ class App extends Component {
           <p>Taking any quirks that make you... you! and adding them to your website to make it unique</p>
           {/* "Unique" will be further down and spider will swing down and give a heart emoji */}
           <h5>Along came a Spider?</h5>
+          {/* Go to "new page for more indepth info on projects?" */}
           <ProjectBoard />
+          {/* Make this seem like a new page to get conact info*/}
           <Contact />
         </header>
       </div>
