@@ -27,8 +27,26 @@
 
 .skillsMain {
   background-color:lightcyan;
-  height: 25vh;
+  /* height: 25vh; */
   margin-top: 69px;
+}
+
+.power {
+  position: relative;
+}
+
+.superPower {
+  background-color: white;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 10px;
+  box-shadow: 7px 17px 45px 2px grey;
+}
+
+.superPower h4 {
+  padding-top:49px;
 }
 
 

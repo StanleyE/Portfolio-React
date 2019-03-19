@@ -3,12 +3,63 @@ import logo from './logo.svg';
 import './App.css';
 import VideoHeader from './components/VideoHeader';
 import About from './components/About';
-import Skills from './components/Skills';
+import Skills from './components/skill/Skills';
 import ProjectBoard from './components/ProjectBoard';
 import Contact from './components/Contact';
 
 
 class App extends Component {
+  constructor(){
+    super();
+
+    this.state = {
+      skills: [
+        {
+          skill: 'Html',
+          time: 4
+        },
+        {
+          skill: 'Css',
+          time: 4
+        },
+        {
+          skill: 'JavaScript',
+          time: 4
+        },
+        {
+          skill: 'React.js',
+          time: 1
+        },
+        {
+          skill: 'Sass',
+          time: 1
+        },
+        {
+          skill: 'MongoDB',
+          time: 1
+        },
+        {
+          skill: 'Bootstrap',
+          time: 4
+        },
+        {
+          skill: 'Node.js',
+          time: 2
+        },
+        {
+          skill: 'Express',
+          time: 0.5
+        },
+        {
+          skill: 'RESTful Requests',
+          time: 0.5
+        }
+      ]
+    };
+  }
+
+
+
   render() {
     return (
       <div className="App">
@@ -19,7 +70,7 @@ class App extends Component {
           <p>Needs to have an alert/modal that takes the persons name(Maybe color even) and personalizes the site to them</p>
           <p>Also need to make it have a daytime and nighttime css that is based of user time zone but also has a button on top corner tha they can manually adjust</p>
           <About />
-          <Skills />
+          <Skills skills = {this.state.skills} />
           <p>With these skills I can help you make your website how you want it</p>
           {/* moving dives to create a fake website */}
           <p>Sofisticated or Energetic</p>
