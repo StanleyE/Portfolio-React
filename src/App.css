@@ -23,6 +23,16 @@
   background-color: slateblue;
   height: 50vh;
   margin-top: 10px;
+  position: relative;
+}
+
+.profImage {
+  background-color:lavenderblush;
+  height: 50vh;
+  width: 35vw;
+  position: absolute;
+  top: 0;
+
 }
 
 .skillsMain {
