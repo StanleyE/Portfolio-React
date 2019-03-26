@@ -66,7 +66,8 @@ class App extends Component {
         <header className="App-header">
           {/* <img src={logo} className="App-logo" alt="logo" /> */}
           <VideoHeader />
-          <p>need to throw a nav bar in here somewhere?</p>
+          <p>need to throw a nav bar in here somewhere?
+          Add links about that will switch between APP, Story, Project Board and Other</p>
           <p>Needs to have an alert/modal that takes the persons name(Maybe color even) and personalizes the site to them</p>
           <p>Also need to make it have a daytime and nighttime css that is based of user time zone but also has a button on top corner tha they can manually adjust</p>
           <About />
